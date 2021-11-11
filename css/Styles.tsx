@@ -96,7 +96,7 @@ export const estilo = StyleSheet.create({
     },
     txticon:{
         flexDirection:"row",
-        alignItems:'center'
+        alignItems:"center"
 
     },
     txt:{
@@ -108,7 +108,94 @@ export const estilo = StyleSheet.create({
         width:18,
         height:15,
         resizeMode:'contain'
+    },
+    trending:{
+        
+
+    },
+    cxtitulo:{
+        flexDirection:"row",
+        marginTop:30,
+        marginBottom:30
+
+    },
+    trendingtitulo:{
+        fontSize:30,
+        color:"#989cac",
+        paddingLeft:10
+
+    },
+    tredingmore:{
+        width:70,
+        height:10,
+        marginLeft:"auto",
+        resizeMode:'contain',
+        paddingRight:10
+
+    },
+    cxtredingdetalhe:{
+        backgroundColor:"#403d40",
+        borderRadius:60,
+        padding:10,
+        width:'90%',
+        marginLeft:'auto',
+        marginRight:'auto'
+
+    },
+    detalheimg:{
+        width:'100%',
+        height:300,
+        borderRadius:60,
+        resizeMode:'cover'
+
+    },
+    //Bottom foi utilizado para mandar o Like para baixo
+    detalhelike:{
+        backgroundColor:'#ff6',
+        padding:10,
+        borderWidth:5,
+        borderColor:'rgba(255,255,100,0.7)',
+        position:'absolute',
+        zIndex:1000,
+        bottom:0,
+        right:0,
+        borderBottomRightRadius:8,
+        borderTopLeftRadius:5,
+        
+
+    },
+    tredingusuario:{
+        flexDirection:'row',
+        marginTop:20,
+        marginBottom:20
+       
+    },
+    tredingusuarioimg:{
+        width:50,
+        height:50,
+        borderRadius:20,
+        resizeMode:'contain',
+        marginRight:10
+
+
+    },
+    tredingusuariotitulo:{
+        fontSize:20,
+        color:'#989cac',
+        fontWeight:'bold'
+
+    },
+    tredingusuariosub:{
+        color:'#989cac'
+
+    },
+    tredingobs:{
+        color:'#989cac'
+        
     }
+
+
+
     
 
 })
