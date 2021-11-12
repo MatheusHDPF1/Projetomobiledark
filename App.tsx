@@ -116,7 +116,7 @@ export default function App() {
         <View style={estilo.tredingusuario}>
           <Image source={{uri:"https://png.pngtree.com/png-clipart/20190924/original/pngtree-business-user-profile-vector-png-image_4830519.jpg"}} style={estilo.tredingusuarioimg}/>
           <View>
-            <Text style={estilo.tredingusuariotitulo}> João silva</Text>
+            <Text style={estilo.tredingusuariotitulo}> João</Text>
             <Text style={estilo.tredingusuariosub}>2 minutos atrás</Text>
           </View>
         </View>
