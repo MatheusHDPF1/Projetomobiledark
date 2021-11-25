@@ -22,7 +22,7 @@ export default function App() {
         </View>
 
         <View style={estilo.pesquisa}>
-        <Image source={{uri:"https://upload.wikimedia.org/wikipedia/meta/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png"}} style={estilo.imgpesquisa}/>
+        <Image source={{uri:"https://upload.wikimedia.org/wikipedia/meta/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png"}}style={estilo.imgpesquisa}/>
       
         </View>
         </View>
@@ -117,7 +117,7 @@ export default function App() {
           <Image source={{uri:"https://png.pngtree.com/png-clipart/20190924/original/pngtree-business-user-profile-vector-png-image_4830519.jpg"}} style={estilo.tredingusuarioimg}/>
           <View>
             <Text style={estilo.tredingusuariotitulo}> João</Text>
-            <Text style={estilo.tredingusuariosub}>2 minutos atrás</Text>
+            <Text style={estilo.tredingusuariosub}>2 minutos atras</Text>
           </View>
         </View>
 
